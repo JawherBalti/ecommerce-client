@@ -1,9 +1,13 @@
-import { Billboard, Category } from "@/types";
+import { Billboard } from "@/types";
+import getStore from "./get-store";
 
-const URL = `${process.env.NEXT_PUBLIC_API_URL}/billboards`
 
-const getBillboard = async (id:string):Promise<Billboard> => {
-    const res = await fetch(`${URL}/${id}`)
+const URL = process.env.NEXT_PUBLIC_API_URL2
+
+const getBillboard = async ():Promise<Billboard[]> => {
+    const resStore =await getStore()
+    console.log(resStore)
+    const res = await fetch(`${URL}/${resStore.id}/billboards`)
     return res.json()
 }
 
