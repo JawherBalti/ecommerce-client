@@ -22,7 +22,7 @@ const CartItem: React.FC<CartItemProps> = ({
   };
 
   return ( 
-    <li className="flex py-6 border-b">
+    <li className="flex py-6 border-b border-slate-400">
       <div className="relative h-24 w-24 rounded-md overflow-hidden sm:h-48 sm:w-48">
         <Image
           fill
@@ -37,7 +37,7 @@ const CartItem: React.FC<CartItemProps> = ({
         </div>
         <div className="relative pr-9 sm:grid sm:grid-cols-2 sm:gap-x-6 sm:pr-0">
           <div className="flex justify-between">
-            <p className=" text-lg font-semibold text-black">
+            <p className=" text-lg font-semibold text-emerald-950">
               {data.name}
             </p>
           </div>

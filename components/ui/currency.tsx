@@ -25,7 +25,7 @@ const Currency: React.FC<CurrencyProps> = ({
   }
 
   return ( 
-    <div className="font-semibold">
+    <div className="font-semibold text-emerald-950">
       {formatter.format(Number(value))}
     </div>
   );
