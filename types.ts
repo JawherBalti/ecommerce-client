@@ -7,6 +7,7 @@ export interface Store {
 export interface Billboard {
     id: string
     label: string
+    labelColor: string
     imageUrl: string
 }
 
