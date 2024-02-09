@@ -1,5 +1,5 @@
 ## Live application
-[e-commerce.com](https://ecommerce-client-eight-rho.vercel.app)
+[e-commerce.com](https://storeeclient.vercel.app)
 ## Getting Started
 
 First, install the project dependencies:
