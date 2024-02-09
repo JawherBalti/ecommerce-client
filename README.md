@@ -1,3 +1,5 @@
+## Admin dashboard repo
+https://github.com/JawherBalti/ecommerce-admin
 ## Live application
 [e-commerce.com](https://storeeclient.vercel.app)
 ## Getting Started
